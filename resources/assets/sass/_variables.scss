@@ -1,0 +1,39 @@
+$color_body: #f0ede5;
+$color_navbar: #EADEDB;
+
+// width
+
+body {
+    background-color: $color_body !important;
+}
+.navbar {
+    background-color: $color_navbar !important;
+    margin-bottom: 1px !important;
+    .navbar-header {
+
+    }
+}
+.menu {
+    width: 100%;
+    background-color: $color_navbar;
+    ul {
+        li {
+            display: inline-block;
+            margin: 5px 20px;
+        }
+    }
+}
+.content {
+    box-sizing: border-box;
+    .items {
+        box-sizing:border-box;
+        .item {
+            .inner_item {
+                border: 1px solid #ccc;
+                background-color: orange;
+                margin: 10px 10px;
+                box-sizing: border-box;
+            }
+        }
+    }
+}
